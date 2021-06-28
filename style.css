@@ -1,0 +1,226 @@
+ @viewport {
+     width:device-width;
+     zoom: 1.0;
+ }
+ 
+ body{
+    background-color: rgb(173, 27, 27);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+ul li{
+    display: inline;
+    font-size: larger;
+    font-weight: 900;
+    
+
+}
+
+
+
+#nav{
+    color: white;
+    
+}
+
+
+
+#nav a{
+
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    float: right;
+
+    
+}
+
+
+p{
+ color: white;   
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    }
+
+    h2{
+        color: white;
+        font-weight: bold;
+    
+        
+        }
+        .contact2 a:hover{
+            
+            color: red;
+            text-decoration: none;
+        }
+        .contact1 a:hover{
+        
+            color: red;
+            text-decoration: none;
+      }
+.right{
+    font-size: larger;
+    float: left;
+}
+
+
+.left{
+    float: right;
+
+}
+
+.principal{
+    margin-top: 5%;
+}  
+
+
+.footer a{
+    color: white;
+    text-align: center;
+}
+#nav a:hover{
+    color: gray;
+}
+
+.p{
+    font-size: larger;
+    float: right;
+    position: relative;
+    top: -300PX;
+
+}
+.fa-facebook{
+    background-color: white;
+    color: blue;
+    
+}
+
+.contact1{
+    background-color: gray;
+    float: left;
+    padding: 80px;
+    margin: 50px;
+    margin-left: 15%;
+    border-radius: 10px;
+  
+    
+
+}
+
+.contact2{
+    background-color: gray;
+    float: left;
+    padding: 100px;
+    margin: 50px;
+    margin-left: 15%;
+    border-radius: 10px;
+    width: 200px;
+    height: 120px;
+}
+.contact1 a{
+    color: white;
+}
+.contact2 a{
+    color: white;
+    margin-left: 10%;
+
+}
+
+.admission1{
+    background-color: gray;
+    float: left;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 100px;
+    
+    
+
+}
+
+.admission2{
+    background-color: gray;
+    float: right;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-right: 100px;
+    
+}
+
+.admission1 h3{
+    color: white;
+}
+
+.admission2 h3{
+    color: white;
+}
+.footer2 a{
+    color: white;
+    margin-top: auto;
+}
+.grid-container{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+    grid-template-rows: 300px;
+   
+    
+}
+.grid-container img{
+
+    border: 8px solid white;
+}
+button{
+    text-decoration: none;
+    padding: 20px;
+    background-color: rgb(184, 8, 8);
+    color: white;
+    border-radius: 50%;
+    margin-left: 35%;
+    margin-top: 5%;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: bold;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: gray;
+    
+}
+.footer2{
+    margin-top: auto;
+    text-align: center;
+    background-color: gray;
+}
+.fa-facebook{
+    margin-left: 30%;
+}
+.footer3{
+    margin-top: auto;
+    text-align: center;
+
+    
+}
+.fa-facebook{
+    margin-right: 30%;
+}
+.footer3 a{
+    color: white;
+}
